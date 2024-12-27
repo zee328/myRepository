@@ -1,4 +1,4 @@
-var xhr=new XMLHttpRequest();
+const xhr=new XMLHttpRequest();
 xhr.open('GET', 'http//google.com/data',true);
 xhr.onload=function(){
     if (xhr.status===200){
